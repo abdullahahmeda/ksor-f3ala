@@ -21,10 +21,10 @@ const handleClick = () => {
     return
   }
 
-  if ((numerator / denomirator) % 1 === 0) {
-    errorElm.textContent = 'هذا الرقم عدد صحيح وليس كسر.'
-    return
-  }
+  // if ((numerator / denomirator) % 1 === 0) {
+  //   errorElm.textContent = 'هذا الرقم عدد صحيح وليس كسر.'
+  //   return
+  // }
 
   errorElm.textContent = ''
 
